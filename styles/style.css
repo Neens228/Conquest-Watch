@@ -1,0 +1,631 @@
+* {
+  padding: 0;
+  margin: 0px 0px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.ellipse {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: -10;
+  position: absolute;
+  width: 800px;
+  height: 870px;
+  border-radius: 100%;
+  margin-left: 530px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(234, 227, 212, 0)), to(#EAE3D4));
+  background: linear-gradient(180deg, rgba(234, 227, 212, 0) 0%, #EAE3D4 100%);
+  mix-blend-mode: normal;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.ellipse div {
+  margin-left: 20px;
+  margin-top: 242px;
+  border: 1px solid #8B8371;
+  width: 50px;
+  height: 0px;
+}
+.ellipse span {
+  margin-right: 8px;
+  font-family: "Prata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  margin-left: 80px;
+  margin-top: 232px;
+  color: #1B1A17;
+}
+.ellipse img {
+  margin-left: 0px;
+  margin-top: 235px;
+  width: 10px;
+  height: 15px;
+}
+
+.headline {
+  height: 85px;
+  width: 1366px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.headline div {
+  margin: 0px 100px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 25px;
+}
+.headline div span {
+  margin-left: 65px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #555248;
+}
+.headline div .logoimg {
+  margin-right: 200px;
+}
+.headline div div {
+  margin-left: 280px;
+}
+.headline div div .icons {
+  margin-left: 23px;
+}
+
+.line {
+  width: 50px;
+  height: 0px;
+  margin-top: 268px;
+  margin-right: 15px;
+  border: 1px solid #8B8371;
+}
+
+.mainimage {
+  width: 1366px;
+  height: 766px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.mainimage .logoheadertext {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 60px;
+  color: #1B1A17;
+}
+.mainimage .rightextbox {
+  z-index: -1;
+  position: absolute;
+  width: 400px;
+  height: 766px;
+  background-color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.mainimage .rightextbox span {
+  font-family: "Prata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  margin-top: 636px;
+  color: #1B1A17;
+  margin-left: 20px;
+}
+.mainimage .rightextbox div {
+  width: 50px;
+  height: 0px;
+  margin-top: 646px;
+  margin-left: 110px;
+  border: 1px solid #8B8371;
+}
+.mainimage .collectionstext {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+  color: #1B1A17;
+  margin-bottom: 20px;
+}
+.mainimage button {
+  width: 205px;
+  height: 64px;
+  left: 181px;
+  top: 553px;
+  border: 0px;
+  background: #444240;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-top: 64px;
+  color: #FFFFFF;
+}
+.mainimage .littletext {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  color: rgba(27, 26, 23, 0.82);
+}
+.mainimage .maintext {
+  margin-top: 236px;
+  margin-right: 40px;
+  height: 560px;
+  width: 390px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.mainimage .mainwatch {
+  margin-right: 200px;
+  width: 500px;
+  height: 796px;
+}
+.mainimage .whiteline {
+  position: absolute;
+  width: 1366px;
+  height: 20px;
+  background-color: white;
+  bottom: 0;
+}
+
+.popularmodelsbox {
+  width: 1366px;
+  height: 720px;
+  background-color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.popularmodelsbox .popularmodelheader {
+  margin-top: 50px;
+  margin-left: 550px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 43px;
+  color: #1B1A17;
+}
+.popularmodelsbox .watchall {
+  margin-left: 340px;
+  margin-top: 112px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #444240;
+}
+.popularmodelsbox .watchall hr {
+  margin-top: 5px;
+}
+.popularmodelsbox .threewatches {
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1366px;
+  height: 467px;
+  background-color: #FFFFFF;
+  margin-left: 98px;
+}
+.popularmodelsbox .threewatches .watchbox {
+  margin-right: 50px;
+  width: 370px;
+  height: 467px;
+  border-radius: 100px;
+}
+.popularmodelsbox .threewatches .watchbox .watchname {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(27, 26, 23, 0.82);
+}
+.popularmodelsbox .threewatches .watchbox .price {
+  font-family: "Prata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(27, 26, 23, 0.82);
+}
+.popularmodelsbox .threewatches .watchbox .pricelogo {
+  width: 10px;
+  height: 10px;
+}
+.popularmodelsbox .threewatches .watchbox .circle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 310px;
+  height: 310px;
+  overflow: visible;
+  border: 1.5px solid transparent;
+  border-image-slice: 1;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.08%, #E2D0C4), color-stop(100.74%, #E2D0C4));
+  background: linear-gradient(180deg, #E2D0C4 0.08%, #E2D0C4 100.74%);
+  -webkit-box-shadow: inset 0px 0px 0px 40vw #fff;
+          box-shadow: inset 0px 0px 0px 40vw #fff;
+  -webkit-box-shadow: 5px;
+          box-shadow: 5px;
+  border-radius: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.popularmodelsbox .threewatches .watchbox .circle img {
+  width: 313px;
+  height: 313px;
+  background-color: #fff;
+  border-radius: 100%;
+}
+.popularmodelsbox .threewatches .watchbox .wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.popularmodelsbox .threewatches .watchbox .wrap .abc {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  margin-left: 18px;
+  color: #1B1A17;
+}
+.popularmodelsbox .threewatches .watchbox .wrap div {
+  width: 30px;
+  height: 0px;
+  border: 1px solid #8B8371;
+  margin-top: 11px;
+  margin-left: 20px;
+}
+.popularmodelsbox .watchcatalogbox {
+  height: 400px;
+  width: 1366px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.popularmodelsbox .watchcatalogbox .background_banner_1 {
+  width: 468px;
+  height: 519px;
+  background: #F7F5EF;
+}
+.popularmodelsbox .watchcatalogbox .background_banner_2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 898px;
+  height: 519px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+.popularmodelsbox .watchcatalogbox .background_banner_2 .background_banner_2_header {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 43px;
+  margin-left: 300px;
+  color: #1B1A17;
+  margin-bottom: 25px;
+}
+.popularmodelsbox .watchcatalogbox .background_banner_2 .background_banner_2_text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+  margin-left: 300px;
+  margin-bottom: 40px;
+  color: #444240;
+}
+.popularmodelsbox .watchcatalogbox .background_banner_2 .background_banner_2_button {
+  width: 205px;
+  height: 64px;
+  margin-left: 300px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.05em;
+  border: 0px;
+  color: #FFFFFF;
+  background: #D4B098;
+}
+.popularmodelsbox .watchcatalogbox .background_banner_2 .left-arrow,
+.popularmodelsbox .watchcatalogbox .background_banner_2 .right-arrow {
+  position: absolute;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 8px;
+  height: 8px;
+  margin-right: 40px;
+}
+.popularmodelsbox .watchcatalogbox .background_banner_2 .left-arrow {
+  left: 558px;
+  top: 1948px;
+}
+.popularmodelsbox .watchcatalogbox .background_banner_2 .right-arrow {
+  left: 611px;
+  top: 1948px;
+}
+.popularmodelsbox .watchcatalogbox .background_banner_2 .left-arrow {
+  border-top: 0.5px solid #1B1A17;
+  border-left: 0.5px solid #1B1A17;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+.popularmodelsbox .watchcatalogbox .background_banner_2 .right-arrow {
+  border-top: 0.5px solid #1B1A17;
+  border-right: 0.5px solid #1B1A17;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+.popularmodelsbox .watchcatalogbox .background_banner_2 .left-arrow:hover {
+  border-top: 0.5px solid #1B1A17;
+  border-left: 0.5px solid #1B1A17;
+}
+.popularmodelsbox .watchcatalogbox .background_banner_2 .right-arrow:hover {
+  border-top: 0.5px solid #1B1A17;
+  border-right: 0.5px solid #1B1A17;
+}
+.popularmodelsbox .watchcatalogbox .background_banner_2 .page_number {
+  left: 584px;
+  top: 1945px;
+  position: absolute;
+  font-family: "Prata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: rgba(27, 26, 23, 0.82);
+}
+.popularmodelsbox .watchcatalogbox .photo_banner {
+  position: absolute;
+  width: 521px;
+  height: 414px;
+  margin: 52px 177px;
+}
+.popularmodelsbox .watchcatalogbox .left-arrow,
+.popularmodelsbox .watchcatalogbox .right-arrow {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.popularmodelsbox .upfooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 160px;
+  z-index: 1;
+  width: 1366px;
+  height: 650px;
+  background-color: #FFFFFF;
+}
+.popularmodelsbox .upfooter .upfooter_wrap_1 {
+  margin-left: 100px;
+  margin-top: 95px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 420px;
+  height: 284px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+.popularmodelsbox .upfooter .upfooter_wrap_1 .header {
+  margin-top: 240px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 43px;
+  color: #1B1A17;
+}
+.popularmodelsbox .upfooter .upfooter_wrap_1 .text {
+  margin-top: 20px;
+  width: 420px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #444240;
+}
+.popularmodelsbox .upfooter .upfooter_wrap_1 .img_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90px;
+  height: 130px;
+  -ms-flex-line-pack: end;
+      align-content: flex-end;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.popularmodelsbox .upfooter .upfooter_wrap_1 .img_wrap img {
+  width: 23px;
+  height: 23px;
+}
+.popularmodelsbox .upfooter .upfooter_wrap_2 {
+  margin-top: 90px;
+  margin-left: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  height: 460px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.popularmodelsbox .upfooter .upfooter_wrap_2 .ph_1 {
+  width: 242px;
+  height: 228px;
+  padding-left: 20px;
+}
+.popularmodelsbox .upfooter .upfooter_wrap_2 .ph_2 {
+  margin-top: 10px;
+  width: 242px;
+  height: 222px;
+  padding-left: 20px;
+}
+.popularmodelsbox .upfooter .upfooter_wrap_2 .ph_3 {
+  width: 377px;
+  height: 460px;
+}
+.popularmodelsbox .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1366px;
+  height: 275px;
+  background: #444240;
+}
+.popularmodelsbox .footer .adressbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 121px;
+  width: 209px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 182px;
+  margin-top: 72px;
+}
+.popularmodelsbox .footer .adressbox img {
+  width: 130px;
+  height: 34.02px;
+  margin-bottom: 10px;
+}
+.popularmodelsbox .footer .adressbox span {
+  margin: 7px 0px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: rgba(255, 255, 255, 0.75);
+}
+.popularmodelsbox .footer .about_company_box {
+  margin-left: 20px;
+  margin-top: 70px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 300px;
+  height: 200px;
+}
+.popularmodelsbox .footer .about_company_box span {
+  margin: 5px 0px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: rgba(255, 255, 255, 0.75);
+}
+.popularmodelsbox .footer .about_company_box .about_company_header {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 15px 0px;
+}
+
+.circle_1 {
+  z-index: 0;
+  position: absolute;
+  width: 365.16px;
+  height: 365.16px;
+  left: 1187px;
+  top: 1280.39px;
+  border: 1px solid #D4B098;
+  border-radius: 100%;
+}
+
+.circle_2 {
+  z-index: 0;
+  position: absolute;
+  width: 744.38px;
+  height: 744.38px;
+  left: 1112px;
+  top: 1520.46px;
+  border: 1px solid #D4B098;
+  border-radius: 100%;
+}
